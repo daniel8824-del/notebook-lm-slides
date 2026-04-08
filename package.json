@@ -1,0 +1,16 @@
+{
+  "name": "notebook-lm-slides",
+  "version": "1.0.0",
+  "description": "NLM slide PDF to editable PPTX via Gemini Vision v7 pipeline",
+  "main": "scripts/render_nlm_v7b.js",
+  "scripts": {
+    "render": "node scripts/render_nlm_v7b.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
